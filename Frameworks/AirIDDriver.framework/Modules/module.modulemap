@@ -1,0 +1,18 @@
+framework module AirIDDriver {
+    umbrella header "AirIDDriver.h"
+    
+    export *
+    module * { export * }
+    
+    
+    explicit module Private {
+        header "AIDDevice+Project.h"
+        header "SSZipArchive.h"
+        header "SSZipCommon.h"
+    }
+}
+
+module AirIDDriver.Swift {
+  header "AirIDDriver-Swift.h"
+  requires objc
+}

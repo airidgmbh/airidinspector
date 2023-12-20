@@ -1,0 +1,22 @@
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+Podfile.lock
+Manifest.lock
+Release.html
+build
+Config/gitrev.xcconfig
+AirIDDriver-Common/AIDVersion.h
+.DS_Store
+Pods
+*~
+aidtemp.xcarchive
+*.log
+*.swp
+docs
+help
